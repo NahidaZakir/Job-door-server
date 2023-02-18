@@ -26,6 +26,8 @@ async function run() {
     try {
         const fresherJobCollection = client.db('Job-Door').collection('fresher-jobs');
         const experiencedJobCollection = client.db('Job-Door').collection('experienced-jobs');
+        const BDCollection = client.db('Job-Door').collection('BdTech');
+        const WorldWideCollection = client.db('Job-Door').collection('WorldWideTech');
 
         app.get('/fresherjobs-6', async (req, res) => {
             const query = {};
@@ -51,6 +53,16 @@ async function run() {
             const query = {};
             const experiencedJobsAll = await experiencedJobCollection.find(query).toArray();
             res.send(experiencedJobsAll);
+        });
+        app.get('/bangladesh', async (req, res) => {
+            const query = {};
+            const bdtech = await BDCollection.find(query).toArray();
+            res.send(bdtech);
+        });
+        app.get('/worldwide', async (req, res) => {
+            const query = {};
+            const worldwide = await WorldWideCollection.find(query).toArray();
+            res.send(worldwide);
         });
     }
     finally {
