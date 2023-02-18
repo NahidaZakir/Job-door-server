@@ -1,57 +1,56 @@
-{
-    "job-number": 1,
-    "position-name": "Wed Developer",
-    "job-location": "United-States",
-    "company-name": "SnowFlake Inc."
-}
-
 [
     {
-        "job-number": 2,
-        "position-name": "Graphics Designer",
-        "job-location": "Australia",
-        "company-name": "Afterpay"
+        "jobNumber": 1,
+        "positionName": "Wed Developer",
+        "jobLocation": "United-States",
+        "companyName": "SnowFlake Inc."
     },
     {
-        "job-number": 3,
-        "position-name": "IT Executive",
-        "job-location": "Bangladesh",
-        "company-name": "Newscred"
+        "jobNumber": 2,
+        "positionName": "Graphics Designer",
+        "jobLocation": "Australia",
+        "companyName": "Afterpay"
     },
     {
-        "job-number": 4,
-        "position-name": "Software Engineer",
-        "job-location": "Bangladesh",
-        "company-name": "LeadSoft Bangladesh LTD."
+        "jobNumber": 3,
+        "positionName": "IT Executive",
+        "jobLocation": "Bangladesh",
+        "companyName": "Newscred"
     },
     {
-        "job-number": 5,
-        "position-name": "Java Developer",
-        "job-location": "China",
-        "company-name": "Tencent"
+        "jobNumber": 4,
+        "positionName": "Software Engineer",
+        "jobLocation": "Bangladesh",
+        "companyName": "LeadSoft Bangladesh LTD."
     },
     {
-        "job-number": 6,
-        "position-name": "Game Developer",
-        "job-location": "Australia",
-        "company-name": "WiseTech Global"
+        "jobNumber": 5,
+        "positionName": "Java Developer",
+        "jobLocation": "China",
+        "companyName": "Tencent"
     },
     {
-        "job-number": 7,
-        "position-name": "System Analyst",
-        "job-location": "Australia",
-        "company-name": "Atlassian"
+        "jobNumber": 6,
+        "positionName": "Game Developer",
+        "jobLocation": "Australia",
+        "companyName": "WiseTech Global"
     },
     {
-        "job-number": 8,
-        "position-name": "Software Developer",
-        "job-location": "China",
-        "company-name": "Huawei"
+        "jobNumber": 7,
+        "positionName": "System Analyst",
+        "jobLocation": "Australia",
+        "companyName": "Atlassian"
     },
     {
-        "job-number": 9,
-        "position-name": "Project Manager",
-        "job-location": "China",
-        "company-name": "Alibaba"
+        "jobNumber": 8,
+        "positionName": "Software Developer",
+        "jobLocation": "China",
+        "companyName": "Huawei"
+    },
+    {
+        "jobNumber": 9,
+        "positionName": "Project Manager",
+        "jobLocation": "China",
+        "companyName": "Alibaba"
     }
 ]

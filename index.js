@@ -26,10 +26,17 @@ async function run() {
     try {
         const fresherJobCollection = client.db('Job-Door').collection('fresher-jobs');
 
-        app.get('/fresherjobs', async (req, res) => {
+        app.get('/fresherjobs-6', async (req, res) => {
             const query = {};
-            const fresherJobs = await fresherJobCollection.find(query).toArray();
-            res.send(fresherJobs);
+            const sort = { length: -1 };
+            const limit = 6;
+            const fresherJobs6 = await fresherJobCollection.find(query).sort(sort).limit(limit).toArray();
+            res.send(fresherJobs6);
+        });
+        app.get('/fresherjobs-all', async (req, res) => {
+            const query = {};
+            const fresherJobsAll = await fresherJobCollection.find(query).toArray();
+            res.send(fresherJobsAll);
         });
     }
     finally {
